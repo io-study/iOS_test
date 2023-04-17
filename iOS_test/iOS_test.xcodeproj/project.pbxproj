@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D4F2D0E29ED6998003F0E19 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F2D0D29ED6998003F0E19 /* LoginViewController.swift */; };
+		3D4F2D1029ED69A1003F0E19 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F2D0F29ED69A1003F0E19 /* SignUpViewController.swift */; };
 		D0A2A3CC29EC5445002B2850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A3CB29EC5445002B2850 /* AppDelegate.swift */; };
 		D0A2A3CE29EC5445002B2850 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A3CD29EC5445002B2850 /* SceneDelegate.swift */; };
 		D0A2A3D029EC5445002B2850 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A3CF29EC5445002B2850 /* BaseViewController.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D4F2D0D29ED6998003F0E19 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D4F2D0F29ED69A1003F0E19 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D0A2A3C829EC5445002B2850 /* iOS_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A2A3CB29EC5445002B2850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0A2A3CD29EC5445002B2850 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D4F2D0C29ED698D003F0E19 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F2D0D29ED6998003F0E19 /* LoginViewController.swift */,
+				3D4F2D0F29ED69A1003F0E19 /* SignUpViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		D0A2A3BF29EC5445002B2850 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +79,7 @@
 		D0A2A3CA29EC5445002B2850 /* iOS_test */ = {
 			isa = PBXGroup;
 			children = (
+				3D4F2D0C29ED698D003F0E19 /* ViewControllers */,
 				D0A2A3EC29ECF61A002B2850 /* extensions */,
 				D0A2A3DF29EC545D002B2850 /* Base */,
 				D0A2A3CB29EC5445002B2850 /* AppDelegate.swift */,
@@ -178,7 +192,9 @@
 				D0A2A3F029ECF6CC002B2850 /* UIView+addSubviews.swift in Sources */,
 				D0A2A3FD29ED2E91002B2850 /* FindPasswordViewController.swift in Sources */,
 				D0A2A3EE29ECF631002B2850 /* UITextField+leftPadding.swift in Sources */,
+				3D4F2D0E29ED6998003F0E19 /* LoginViewController.swift in Sources */,
 				D0A2A3D029EC5445002B2850 /* BaseViewController.swift in Sources */,
+				3D4F2D1029ED69A1003F0E19 /* SignUpViewController.swift in Sources */,
 				D0A2A3CC29EC5445002B2850 /* AppDelegate.swift in Sources */,
 				D0A2A3CE29EC5445002B2850 /* SceneDelegate.swift in Sources */,
 			);
