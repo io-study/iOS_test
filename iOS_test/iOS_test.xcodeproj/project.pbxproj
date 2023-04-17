@@ -17,6 +17,7 @@
 		D0A2A3F229ECF729002B2850 /* UIColor+ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A3F129ECF729002B2850 /* UIColor+ColorSet.swift */; };
 		D0A2A3F829ED1911002B2850 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D0A2A3F729ED1911002B2850 /* SnapKit */; };
 		D0A2A3FB29ED191F002B2850 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D0A2A3FA29ED191F002B2850 /* Then */; };
+		D0A2A3FD29ED2E91002B2850 /* FindPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A3FC29ED2E91002B2850 /* FindPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D0A2A3ED29ECF631002B2850 /* UITextField+leftPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+leftPadding.swift"; sourceTree = "<group>"; };
 		D0A2A3EF29ECF6CC002B2850 /* UIView+addSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubviews.swift"; sourceTree = "<group>"; };
 		D0A2A3F129ECF729002B2850 /* UIColor+ColorSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ColorSet.swift"; sourceTree = "<group>"; };
+		D0A2A3FC29ED2E91002B2850 /* FindPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				D0A2A3D429EC5446002B2850 /* Assets.xcassets */,
 				D0A2A3D629EC5446002B2850 /* LaunchScreen.storyboard */,
 				D0A2A3D929EC5446002B2850 /* Info.plist */,
+				D0A2A3FC29ED2E91002B2850 /* FindPasswordViewController.swift */,
 			);
 			path = iOS_test;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			files = (
 				D0A2A3F229ECF729002B2850 /* UIColor+ColorSet.swift in Sources */,
 				D0A2A3F029ECF6CC002B2850 /* UIView+addSubviews.swift in Sources */,
+				D0A2A3FD29ED2E91002B2850 /* FindPasswordViewController.swift in Sources */,
 				D0A2A3EE29ECF631002B2850 /* UITextField+leftPadding.swift in Sources */,
 				D0A2A3D029EC5445002B2850 /* BaseViewController.swift in Sources */,
 				D0A2A3CC29EC5445002B2850 /* AppDelegate.swift in Sources */,
@@ -320,7 +324,6 @@
 				INFOPLIST_FILE = iOS_test/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -348,7 +351,6 @@
 				INFOPLIST_FILE = iOS_test/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
