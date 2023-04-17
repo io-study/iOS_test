@@ -25,7 +25,7 @@ final class FindPasswordViewController: BaseViewController {
     }
     
     private let findButton = UIButton().then{
-        $0.backgroundColor = .buttonColor
+        $0.backgroundColor = UIColor(named: "Color")
         $0.setTitle("찾기", for: .normal)
         $0.setTitleColor(.white, for: .normal)
         $0.layer.cornerRadius = 8
