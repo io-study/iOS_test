@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D65A74929ED1C6E0048C0CB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D65A74829ED1C6E0048C0CB /* SignInViewController.swift */; };
 		D0A2A3CC29EC5445002B2850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A3CB29EC5445002B2850 /* AppDelegate.swift */; };
 		D0A2A3CE29EC5445002B2850 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A3CD29EC5445002B2850 /* SceneDelegate.swift */; };
 		D0A2A3D029EC5445002B2850 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A3CF29EC5445002B2850 /* BaseViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D65A74829ED1C6E0048C0CB /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D0A2A3C829EC5445002B2850 /* iOS_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A2A3CB29EC5445002B2850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0A2A3CD29EC5445002B2850 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				D0A2A3D429EC5446002B2850 /* Assets.xcassets */,
 				D0A2A3D629EC5446002B2850 /* LaunchScreen.storyboard */,
 				D0A2A3D929EC5446002B2850 /* Info.plist */,
+				3D65A74829ED1C6E0048C0CB /* SignInViewController.swift */,
 			);
 			path = iOS_test;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D65A74929ED1C6E0048C0CB /* SignInViewController.swift in Sources */,
 				D0A2A3F229ECF729002B2850 /* UIColor+ColorSet.swift in Sources */,
 				D0A2A3F029ECF6CC002B2850 /* UIView+addSubviews.swift in Sources */,
 				D0A2A3EE29ECF631002B2850 /* UITextField+leftPadding.swift in Sources */,
@@ -320,7 +324,6 @@
 				INFOPLIST_FILE = iOS_test/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -348,7 +351,6 @@
 				INFOPLIST_FILE = iOS_test/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
