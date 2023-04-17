@@ -59,6 +59,11 @@ final class FindPasswordViewController: BaseViewController {
     }
     
     override func configNavigation() {
-        self.navigationItem.title = "비밀번호 찾기"
+        let backbutton = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+                backbutton.tintColor = .black
+                self.navigationItem.backBarButtonItem = backbutton
+                self.navigationController?.navigationBar.tintColor = .black
+                self.navigationItem.title = "비밀번호 찾기"
+                self.navigationController?.navigationBar.topItem?.title = ""
     }
 }
