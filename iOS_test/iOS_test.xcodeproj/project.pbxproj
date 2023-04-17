@@ -75,6 +75,7 @@
 				D0A2A3D429EC5446002B2850 /* Assets.xcassets */,
 				D0A2A3D629EC5446002B2850 /* LaunchScreen.storyboard */,
 				D0A2A3D929EC5446002B2850 /* Info.plist */,
+                3D65A74829ED1C6E0048C0CB /* LoginViewController.swift */,
 				D0A2A3FC29ED2E91002B2850 /* FindPasswordViewController.swift */,
 			);
 			path = iOS_test;
