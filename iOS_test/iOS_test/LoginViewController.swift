@@ -9,7 +9,7 @@ import UIKit
 import Then
 import SnapKit
 
-final class SignInViewController: BaseViewController {
+final class LoginViewController: BaseViewController {
     
     private let titleLabel = UILabel().then {
         $0.text = "LOGIN"
@@ -87,7 +87,7 @@ final class SignInViewController: BaseViewController {
         }
     }
 }
-extension SignInViewController {
+extension LoginViewController {
     @objc private func signUpButtonDidTap(){
         let signinviewcontroller = SignUpViewController()
         navigationController?.pushViewController(signinviewcontroller, animated: true)
