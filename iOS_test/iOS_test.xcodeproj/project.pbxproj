@@ -12,6 +12,9 @@
 		D0A2A3D029EC5445002B2850 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A3CF29EC5445002B2850 /* BaseViewController.swift */; };
 		D0A2A3D529EC5446002B2850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A2A3D429EC5446002B2850 /* Assets.xcassets */; };
 		D0A2A3D829EC5446002B2850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A2A3D629EC5446002B2850 /* LaunchScreen.storyboard */; };
+		D0A2A3EE29ECF631002B2850 /* UITextField+leftPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A3ED29ECF631002B2850 /* UITextField+leftPadding.swift */; };
+		D0A2A3F029ECF6CC002B2850 /* UIView+addSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A3EF29ECF6CC002B2850 /* UIView+addSubviews.swift */; };
+		D0A2A3F229ECF729002B2850 /* UIColor+ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A3F129ECF729002B2850 /* UIColor+ColorSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D0A2A3D429EC5446002B2850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0A2A3D729EC5446002B2850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0A2A3D929EC5446002B2850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0A2A3ED29ECF631002B2850 /* UITextField+leftPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+leftPadding.swift"; sourceTree = "<group>"; };
+		D0A2A3EF29ECF6CC002B2850 /* UIView+addSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubviews.swift"; sourceTree = "<group>"; };
+		D0A2A3F129ECF729002B2850 /* UIColor+ColorSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ColorSet.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		D0A2A3CA29EC5445002B2850 /* iOS_test */ = {
 			isa = PBXGroup;
 			children = (
+				D0A2A3EC29ECF61A002B2850 /* extensions */,
 				D0A2A3DF29EC545D002B2850 /* Base */,
 				D0A2A3CB29EC5445002B2850 /* AppDelegate.swift */,
 				D0A2A3CD29EC5445002B2850 /* SceneDelegate.swift */,
@@ -70,6 +77,16 @@
 				D0A2A3CF29EC5445002B2850 /* BaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		D0A2A3EC29ECF61A002B2850 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0A2A3ED29ECF631002B2850 /* UITextField+leftPadding.swift */,
+				D0A2A3EF29ECF6CC002B2850 /* UIView+addSubviews.swift */,
+				D0A2A3F129ECF729002B2850 /* UIColor+ColorSet.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A2A3F229ECF729002B2850 /* UIColor+ColorSet.swift in Sources */,
+				D0A2A3F029ECF6CC002B2850 /* UIView+addSubviews.swift in Sources */,
+				D0A2A3EE29ECF631002B2850 /* UITextField+leftPadding.swift in Sources */,
 				D0A2A3D029EC5445002B2850 /* BaseViewController.swift in Sources */,
 				D0A2A3CC29EC5445002B2850 /* AppDelegate.swift in Sources */,
 				D0A2A3CE29EC5445002B2850 /* SceneDelegate.swift in Sources */,
